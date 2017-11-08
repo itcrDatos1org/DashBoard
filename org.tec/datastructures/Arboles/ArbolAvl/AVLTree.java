@@ -1,9 +1,7 @@
-//
-// Source code recreated from a .class file by IntelliJ IDEA
-// (powered by Fernflower decompiler)
-//
 
-package datastructures.Arboles.ArbolBinario;
+
+package datastructures.Arboles.ArbolAvl;
+
 
 public class AVLTree<T extends Comparable<T>> {
     public AVLNode<T> root = null;
