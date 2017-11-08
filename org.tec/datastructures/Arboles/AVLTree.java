@@ -1,6 +1,6 @@
 
 
-package datastructures.Arboles.ArbolAvl;
+package datastructures.Arboles;
 
 
 public class AVLTree<T extends Comparable<T>> {

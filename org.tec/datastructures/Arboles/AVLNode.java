@@ -3,7 +3,7 @@
 // (powered by Fernflower decompiler)
 //
 
-package datastructures.Arboles.ArbolAvl;
+package datastructures.Arboles;
 
 public class AVLNode<T extends Comparable<T>> {
     public T data;
