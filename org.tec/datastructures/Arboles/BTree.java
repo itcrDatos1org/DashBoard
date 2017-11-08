@@ -35,7 +35,7 @@ public class BTree<Key extends Comparable<Key>, Value> {
         if(ht == 0) {
             for(j = 0; j < x.m; ++j) {
                 if(this.eq(key, children[j].key)) {
-                    return children[j].val;
+                    return (Value) children[j].val;
                 }
             }
         } else {
