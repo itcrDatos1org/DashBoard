@@ -50,7 +50,7 @@ public class Grafo<T>
         for (NodeGrafo<T> node : this.nodes)
         {
             System.out.print("de: " + node.getData() + " |  a: ");
-            for (NodeGrafo<T> m : (ArrayList)this.adjList.get(node)) {
+            for (NodeGrafo m : (ArrayList)this.adjList.get(node)) {
                 System.out.print(m.getData() + " ");
             }
             System.out.println();
