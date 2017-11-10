@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="67dcb610-048a-46c3-81ef-ac15db0f7287" name="Default" comment="" />
+    <list default="true" id="67dcb610-048a-46c3-81ef-ac15db0f7287" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+    </list>
     <ignored path="/production/DashBoard/" />
     <ignored path="/test/DashBoard/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -37,13 +39,13 @@
       <file leaf-file-name="workspace.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="289" column="26" lean-forward="false" selection-start-line="289" selection-start-column="26" selection-end-line="289" selection-end-column="26" />
+            <state relative-caret-position="306">
+              <caret line="291" column="26" lean-forward="false" selection-start-line="291" selection-start-column="26" selection-end-line="291" selection-end-column="26" />
               <folding>
-                <marker date="1510324171761" expanded="true" signature="44449:44491" ph="..." />
-                <marker date="1510324171761" expanded="true" signature="44449:44509" ph="..." />
-                <marker date="1510324171761" expanded="true" signature="44449:44522" ph="..." />
-                <marker date="1510324171761" expanded="true" signature="44449:44537" ph="..." />
+                <marker date="1510326145897" expanded="true" signature="44618:44660" ph="..." />
+                <marker date="1510326145897" expanded="true" signature="44618:44678" ph="..." />
+                <marker date="1510326145897" expanded="true" signature="44618:44691" ph="..." />
+                <marker date="1510326145897" expanded="true" signature="44618:44706" ph="..." />
               </folding>
             </state>
           </provider>
@@ -622,12 +624,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1510304874142</updated>
-      <workItem from="1510304875625" duration="2624000" />
+      <workItem from="1510304875625" duration="3454000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2624000" />
+    <option name="totallyTimeSpent" value="3454000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -800,13 +802,13 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="289" column="26" lean-forward="false" selection-start-line="289" selection-start-column="26" selection-end-line="289" selection-end-column="26" />
+        <state relative-caret-position="306">
+          <caret line="291" column="26" lean-forward="false" selection-start-line="291" selection-start-column="26" selection-end-line="291" selection-end-column="26" />
           <folding>
-            <marker date="1510324171761" expanded="true" signature="44449:44491" ph="..." />
-            <marker date="1510324171761" expanded="true" signature="44449:44509" ph="..." />
-            <marker date="1510324171761" expanded="true" signature="44449:44522" ph="..." />
-            <marker date="1510324171761" expanded="true" signature="44449:44537" ph="..." />
+            <marker date="1510326145897" expanded="true" signature="44618:44660" ph="..." />
+            <marker date="1510326145897" expanded="true" signature="44618:44678" ph="..." />
+            <marker date="1510326145897" expanded="true" signature="44618:44691" ph="..." />
+            <marker date="1510326145897" expanded="true" signature="44618:44706" ph="..." />
           </folding>
         </state>
       </provider>
