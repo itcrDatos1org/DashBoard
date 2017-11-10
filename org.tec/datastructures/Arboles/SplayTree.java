@@ -5,7 +5,7 @@ import java.io.PrintStream;
 public class SplayTree<Key extends Comparable<Key>, Value>
 {
     public SplayTree<Key, Value>.Node root;
-//hola
+
     private class Node
     {
         public Key key;
