@@ -1,28 +1,26 @@
-
-
 package datastructures.Arboles;
 
 
 public class AVLTree<T extends Comparable<T>> {
+//--------------------------------------------------------------------------------------//
     public AVLNode<T> root;
-
-  public AVLTree()
+//--------------------------------------------------------------------------------------//
+    public AVLTree()
         {
             this.root = null;
         }
-
-        public AVLNode<T> getRoot()
+//--------------------------------------------------------------------------------------//
+    public AVLNode<T> getRoot()
         {
             return this.root;
         }
 
+//--------------------------------------------------------------------------------------//
     public boolean contains(T data)
     {
         return contains(data, this.root);
     }
-
-    private boolean contains(T element, AVLNode<T> node)
-    {
+    private boolean contains(T element, AVLNode<T> node) {
         if (node == null) {
             return false;
         }
@@ -37,14 +35,12 @@ public class AVLTree<T extends Comparable<T>> {
         }
         return false;
     }
-
+//--------------------------------------------------------------------------------------//
     public AVLNode<T> getElement(T element)
     {
         return getElement(element, this.root);
     }
-
-    private AVLNode<T> getElement(T element, AVLNode<T> node)
-    {
+    private AVLNode<T> getElement(T element, AVLNode<T> node) {
         if (node == null) {
             return null;
         }
@@ -56,17 +52,15 @@ public class AVLTree<T extends Comparable<T>> {
         }
         return getElement(element, node.getLeft());
     }
-
-    private int getBalanceFactor(AVLNode<T> node)
-    {
+//--------------------------------------------------------------------------------------//
+    private int getBalanceFactor(AVLNode<T> node){
         if (node == null) {
             return -1;
         }
         return node.getBalanceFactor();
     }
-
-    private AVLNode<T> leftRotation(AVLNode<T> node)
-    {
+//--------------------------------------------------------------------------------------//
+    private AVLNode<T> leftRotation(AVLNode<T> node){
         AVLNode<T> aux = node.getLeft();
 
         node.setLeft(aux.getRight());
@@ -76,9 +70,8 @@ public class AVLTree<T extends Comparable<T>> {
 
         return aux;
     }
-
-    private AVLNode<T> rightRotation(AVLNode<T> node)
-    {
+//--------------------------------------------------------------------------------------//
+    private AVLNode<T> rightRotation(AVLNode<T> node){
         AVLNode<T> aux = node.getRight();
 
         node.setRight(aux.getLeft());
@@ -88,23 +81,20 @@ public class AVLTree<T extends Comparable<T>> {
 
         return aux;
     }
-
-    private AVLNode<T> doubleLeftRotation(AVLNode<T> node)
-    {
+//--------------------------------------------------------------------------------------//
+    private AVLNode<T> doubleLeftRotation(AVLNode<T> node){
         node.setLeft(rightRotation(node.getLeft()));
         AVLNode<T> aux = leftRotation(node);
         return aux;
     }
-
-    private AVLNode<T> doubleRightRotation(AVLNode<T> node)
-    {
+//--------------------------------------------------------------------------------------//
+    private AVLNode<T> doubleRightRotation(AVLNode<T> node){
         node.setRight(leftRotation(node.getRight()));
         AVLNode<T> aux = rightRotation(node);
         return aux;
     }
-
-    public void insert(T data)
-    {
+//--------------------------------------------------------------------------------------//
+    public void insert(T data){
         AVLNode<T> newNode = new AVLNode(data);
         if (this.root == null) {
             this.root = newNode;
@@ -112,9 +102,7 @@ public class AVLTree<T extends Comparable<T>> {
             this.root = insert(newNode, this.root);
         }
     }
-
-    private AVLNode insert(AVLNode newNode, AVLNode subTree)
-    {
+    private AVLNode insert(AVLNode newNode, AVLNode subTree){
         AVLNode<T> newFather = subTree;
         if (newNode.getData().compareTo(subTree.getData()) < 0)
         {
@@ -164,14 +152,12 @@ public class AVLTree<T extends Comparable<T>> {
         }
         return newFather;
     }
-
+//--------------------------------------------------------------------------------------//
     public void remove(T element)
     {
         this.root = remove(element, this.root);
     }
-
-    private AVLNode<T> remove(T element, AVLNode<T> node)
-    {
+    private AVLNode<T> remove(T element, AVLNode<T> node){
         if (node == null) {
             return null;
         }
@@ -206,14 +192,12 @@ public class AVLTree<T extends Comparable<T>> {
         }
         return node;
     }
-
+//--------------------------------------------------------------------------------------//
     public void print()
     {
         print(this.root);
     }
-
-    private void print(AVLNode<T> node)
-    {
+    private void print(AVLNode<T> node){
         if (node != null)
         {
             print(node.getLeft());
@@ -221,4 +205,5 @@ public class AVLTree<T extends Comparable<T>> {
             print(node.getRight());
         }
     }
+//--------------------------------------------------------------------------------------//
 }
