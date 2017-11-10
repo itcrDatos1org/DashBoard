@@ -3,9 +3,13 @@
   <component name="ChangeListManager">
     <list default="true" id="090931d8-03e2-48e4-aaf8-e79896e79b08" name="Default" comment="">
 <<<<<<< HEAD
+<<<<<<< HEAD
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/org.tec/datastructures/Arboles/SplayTree.java" afterPath="$PROJECT_DIR$/org.tec/datastructures/Arboles/SplayTree.java" />
 =======
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/org.tec/datastructures/Arboles/BinarySearchTree.java" afterPath="$PROJECT_DIR$/org.tec/datastructures/Arboles/BinarySearchTree.java" />
+>>>>>>> origin/master
+=======
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
 >>>>>>> origin/master
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -42,10 +46,14 @@
         <entry file="file://$PROJECT_DIR$/org.tec/datastructures/Arboles/BTree.java">
           <provider selected="true" editor-type-id="text-editor">
 <<<<<<< HEAD
+<<<<<<< HEAD
             <state relative-caret-position="969">
               <caret line="63" column="13" lean-forward="true" selection-start-line="63" selection-start-column="13" selection-end-line="63" selection-end-column="13" />
 =======
             <state relative-caret-position="331">
+=======
+            <state relative-caret-position="2363">
+>>>>>>> origin/master
               <caret line="151" column="9" lean-forward="false" selection-start-line="151" selection-start-column="9" selection-end-line="151" selection-end-column="9" />
 >>>>>>> origin/master
               <folding />
@@ -85,6 +93,7 @@
           </provider>
         </entry>
       </file>
+<<<<<<< HEAD
       <file leaf-file-name="AVLTree.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/org.tec/datastructures/Arboles/AVLTree.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -92,6 +101,18 @@
               <caret line="22" column="0" lean-forward="true" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
               <folding />
 =======
+=======
+      <file leaf-file-name="Cola.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/org.tec/datastructures/DatosLineales/Cola.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="17">
+              <caret line="1" column="13" lean-forward="false" selection-start-line="1" selection-start-column="13" selection-end-line="1" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+>>>>>>> origin/master
       <file leaf-file-name="AVLNode.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/org.tec/datastructures/Arboles/AVLNode.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -760,9 +781,13 @@
       <workItem from="1510166057633" duration="946000" />
       <workItem from="1510167804428" duration="3516000" />
 <<<<<<< HEAD
+<<<<<<< HEAD
       <workItem from="1510300580580" duration="2600000" />
 =======
       <workItem from="1510299298953" duration="2115000" />
+>>>>>>> origin/master
+=======
+      <workItem from="1510299298953" duration="2397000" />
 >>>>>>> origin/master
     </task>
     <task id="LOCAL-00001" summary="13.20">
@@ -777,14 +802,17 @@
   </component>
   <component name="TimeTrackingManager">
 <<<<<<< HEAD
+<<<<<<< HEAD
     <option name="totallyTimeSpent" value="11169000" />
 =======
     <option name="totallyTimeSpent" value="10684000" />
 >>>>>>> origin/master
+=======
+    <option name="totallyTimeSpent" value="10966000" />
+>>>>>>> origin/master
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -801,9 +829,13 @@
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
 <<<<<<< HEAD
+<<<<<<< HEAD
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18887262" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
 =======
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19213313" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+>>>>>>> origin/master
+=======
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19213313" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
 >>>>>>> origin/master
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24962063" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -1005,14 +1037,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/org.tec/datastructures/Arboles/Node.java" />
-    <entry file="file://$PROJECT_DIR$/org.tec/datastructures/DatosLineales/Cola.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="3" lean-forward="true" selection-start-line="0" selection-start-column="3" selection-end-line="4" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../ss/org/tec/datastructures/DatosLineales/Cola.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="499">
@@ -1147,6 +1171,7 @@
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/org.tec/datastructures/Arboles/AVLNode.java">
       <provider selected="true" editor-type-id="text-editor">
 <<<<<<< HEAD
@@ -1154,6 +1179,19 @@
           <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
 =======
         <state relative-caret-position="331">
+=======
+    <entry file="file://$PROJECT_DIR$/org.tec/datastructures/DatosLineales/Cola.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="13" lean-forward="false" selection-start-line="1" selection-start-column="13" selection-end-line="1" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/org.tec/datastructures/Arboles/BTree.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2363">
+>>>>>>> origin/master
           <caret line="151" column="9" lean-forward="false" selection-start-line="151" selection-start-column="9" selection-end-line="151" selection-end-column="9" />
 >>>>>>> origin/master
           <folding />

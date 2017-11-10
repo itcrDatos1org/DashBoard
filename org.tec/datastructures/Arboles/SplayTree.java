@@ -13,10 +13,10 @@ public class SplayTree<Key extends Comparable<Key>, Value>
         public SplayTree<Key, Value>.Node left;
         public SplayTree<Key, Value>.Node right;
 
-        public Node(Value key)
+        public Node(Key value, Value key)
         {
             this.key = (Key) key;
-            this.value = value;
+            this.value = (Value) value;
         }
     }
 
