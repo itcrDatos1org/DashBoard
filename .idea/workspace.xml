@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="090931d8-03e2-48e4-aaf8-e79896e79b08" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/org.tec/datastructures/Arboles/AVLTree.java" afterPath="$PROJECT_DIR$/org.tec/datastructures/Arboles/AVLTree.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/org.tec/datastructures/Arboles/BinarySearchTree.java" afterPath="$PROJECT_DIR$/org.tec/datastructures/Arboles/BinarySearchTree.java" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -23,6 +23,16 @@
                 <element signature="e#271#272#0" expanded="true" />
                 <element signature="e#333#334#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BTree.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/org.tec/datastructures/Arboles/BTree.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="331">
+              <caret line="151" column="9" lean-forward="false" selection-start-line="151" selection-start-column="9" selection-end-line="151" selection-end-column="9" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -77,12 +87,25 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BinarySearchTree.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="BinarySearchTree.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/org.tec/datastructures/Arboles/BinarySearchTree.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-              <folding />
+            <state relative-caret-position="2142">
+              <caret line="126" column="5" lean-forward="false" selection-start-line="126" selection-start-column="5" selection-end-line="126" selection-end-column="5" />
+              <folding>
+                <element signature="e#154#155#0" expanded="true" />
+                <element signature="e#186#187#0" expanded="true" />
+                <element signature="e#226#227#0" expanded="true" />
+                <element signature="e#258#259#0" expanded="true" />
+                <element signature="e#301#302#0" expanded="true" />
+                <element signature="e#349#350#0" expanded="true" />
+                <element signature="e#882#883#0" expanded="true" />
+                <element signature="e#935#936#0" expanded="true" />
+                <element signature="e#2351#2352#0" expanded="true" />
+                <element signature="e#2405#2406#0" expanded="true" />
+                <element signature="e#2998#2999#0" expanded="true" />
+                <element signature="e#3030#3031#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -138,7 +161,6 @@
         <option value="$PROJECT_DIR$/org.tec/datastructures/DatosJerarquicos/Pila.java" />
         <option value="$PROJECT_DIR$/org.tec/datastructures/DatosJerarquicos/Grafo.java" />
         <option value="$PROJECT_DIR$/org.tec/datastructures/Arboles/ArbolBinario/BinarySearchTree.java" />
-        <option value="$PROJECT_DIR$/org.tec/datastructures/Arboles/BinarySearchTree.java" />
         <option value="$PROJECT_DIR$/org.tec/datastructures/Arboles/TreeNode.java" />
         <option value="$PROJECT_DIR$/org.tec/datastructures/Arboles/Node.java" />
         <option value="$PROJECT_DIR$/org.tec/datastructures/Arboles/Entry.java" />
@@ -148,6 +170,7 @@
         <option value="$PROJECT_DIR$/org.tec/datastructures/DatosLineales/Cola.java" />
         <option value="$PROJECT_DIR$/org.tec/datastructures/DatosLineales/Grafo.java" />
         <option value="$PROJECT_DIR$/org.tec/datastructures/Arboles/AVLTree.java" />
+        <option value="$PROJECT_DIR$/org.tec/datastructures/Arboles/BinarySearchTree.java" />
       </list>
     </option>
   </component>
@@ -674,7 +697,7 @@
       <workItem from="1510165652401" duration="364000" />
       <workItem from="1510166057633" duration="946000" />
       <workItem from="1510167804428" duration="3516000" />
-      <workItem from="1510299298953" duration="1958000" />
+      <workItem from="1510299298953" duration="2115000" />
     </task>
     <task id="LOCAL-00001" summary="13.20">
       <created>1510171602791</created>
@@ -687,7 +710,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10527000" />
+    <option name="totallyTimeSpent" value="10684000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -853,14 +876,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/org.tec/datastructures/Arboles/Node.java" />
-    <entry file="file://$PROJECT_DIR$/org.tec/datastructures/Arboles/BTree.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="305">
-          <caret line="151" column="9" lean-forward="false" selection-start-line="151" selection-start-column="9" selection-end-line="151" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/org.tec/datastructures/DatosLineales/Cola.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -970,8 +985,29 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/org.tec/datastructures/Arboles/BinarySearchTree.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+        <state relative-caret-position="2142">
+          <caret line="126" column="5" lean-forward="false" selection-start-line="126" selection-start-column="5" selection-end-line="126" selection-end-column="5" />
+          <folding>
+            <element signature="e#154#155#0" expanded="true" />
+            <element signature="e#186#187#0" expanded="true" />
+            <element signature="e#226#227#0" expanded="true" />
+            <element signature="e#258#259#0" expanded="true" />
+            <element signature="e#301#302#0" expanded="true" />
+            <element signature="e#349#350#0" expanded="true" />
+            <element signature="e#882#883#0" expanded="true" />
+            <element signature="e#935#936#0" expanded="true" />
+            <element signature="e#2351#2352#0" expanded="true" />
+            <element signature="e#2405#2406#0" expanded="true" />
+            <element signature="e#2998#2999#0" expanded="true" />
+            <element signature="e#3030#3031#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/org.tec/datastructures/Arboles/BTree.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="331">
+          <caret line="151" column="9" lean-forward="false" selection-start-line="151" selection-start-column="9" selection-end-line="151" selection-end-column="9" />
           <folding />
         </state>
       </provider>
